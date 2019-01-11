@@ -8,6 +8,7 @@ A very basic node js endpoint with POST and GET request boilerplate with SQLite 
 2. In project root directory run the following
    > npm install
 3. > node src/server.js
+4. Now ```helloWorld.sqlite``` file will be created in the project root directory
 
 ### Prerequisites
 
