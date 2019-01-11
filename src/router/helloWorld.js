@@ -14,5 +14,14 @@ router.get("/helloWorld", async (ctx, next) => {
   await next();
 });
 
+// Route to handle POST request
+router.post("/helloWorld", async (ctx, next) => {
+  console.log('payload in POST ', ctx.request.body)
+  ctx.response.body = 'hello world ';
+  await next();
+});
+
+
+
 
 module.exports = app;
